@@ -1,0 +1,37 @@
+.card-techs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+
+    background-color: #302F3D;
+    width: 348px;
+    padding: 30px 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+}
+
+.tech-tags{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tech{
+    background-color: #CB92B1;
+    color: #000000;
+    text-align: center;
+    border-radius: 10px;
+    padding: 0px 15px;
+    min-width: 86px;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+.card-techs h1{
+    font-size: 20px;
+    width: 100%;
+    
+    text-align: left ;
+}

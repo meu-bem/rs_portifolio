@@ -1,0 +1,27 @@
+.card-list-experiences{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+    background-color: #302F3D;
+    width: 348px;
+    padding: 30px 30px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+}
+
+.card-list-experiences h1{
+    font-size: 20px;
+    width: 100%;
+    
+    text-align: left ;
+}
+
+.events{
+    display: flex;
+    flex-direction: column;
+
+    width: 80%;
+}

@@ -1,0 +1,52 @@
+.github-project {
+    background-color: #302F3D;
+    max-height: 186px;
+    border-radius: 20px;
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+
+    box-sizing: border-box;
+}
+
+.title h1{
+    font-size: 16px;
+}
+
+.description {
+    text-align: left;
+    width: 100%;
+}
+
+.project-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.interactions {
+    display: flex;
+    justify-content: start;
+    gap: 16px;
+}
+
+.it-item {
+    display: flex;
+    justify-content: start;
+    width: max-content;
+    gap: 8px;
+}
+
+.techs {
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+
+.yellow-ball{
+    height: 10px;
+    width: 10px;
+    background-color: #E7DE79;
+    border-radius: 50%;
+    border: 2px solid #837E9F;
+}

@@ -1,0 +1,10 @@
+main {
+    min-height: 100vh;
+    display: flex;
+    width: 100%;
+
+    flex-direction: column;
+    justify-content: start;
+    gap: 30px;
+}
+

@@ -1,0 +1,26 @@
+:root {
+  --body-bg-color: #22212C;
+  --text-color: #837E9F;
+  --bg-cards: #302F3D;
+  --bg-techs: #CB92B1;
+  color: var(--text-color)
+}
+
+*{
+  padding: 0;
+  margin: 0;
+
+  font-size: 16px;
+  color: var(--text-color);
+}
+
+body{
+  background-color: var(--body-bg-color);
+}
+
+.App{
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  align-items: start;
+}
