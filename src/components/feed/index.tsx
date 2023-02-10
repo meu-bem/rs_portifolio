@@ -1,4 +1,5 @@
 import { Projects } from '../projects';
+import { RecentPosts } from '../recent-posts'
 
 import './style.css';
 
@@ -7,6 +8,7 @@ export const Feed = () => {
         <>
             <main>
                 <Projects/>
+                <RecentPosts/>
             </main>
         </>
     )

@@ -13,8 +13,8 @@ export const Techs = () => {
                 </h1>
                 <div className="tech-tags">
                     {
-                        techItems.map((techName, index) => (
-                            <span className="tech" key={index}>
+                        techItems.map((techName) => (
+                            <span className="tech" key={techName.toString()}>
                                 { techName.toUpperCase() }
                             </span>
                         ))

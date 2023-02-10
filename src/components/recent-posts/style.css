@@ -1,13 +1,12 @@
-.projects {
+.posts {
     width: 100%;
     flex-direction: column;
 }
 
-.my-projects {
+.recent-posts {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     gap: 30px;
 
     background-color: #302F3D;
@@ -17,15 +16,20 @@
     box-sizing: border-box;
 }
 
-.my-projects h1 {
+.recent-posts h1 {
     font-size: 20px;
 }
 
-.my-projects a {
+.recent-posts a {
     text-decoration: none;
     color: #837E9F;
 }
 
-.my-projects a:hover {
+.recent-posts a:hover {
     color: #837E9F;
+}
+
+.posts-list {
+    display: flex;
+    flex-direction: column;
 }

@@ -46,6 +46,7 @@ export const ListExperiences = () => {
                                 startYear={startYear}
                                 endYear={endYear}
                                 place={place}
+                                key={`${Math.random()}`}
                             />
                         ))
                     }

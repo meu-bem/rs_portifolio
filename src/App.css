@@ -23,4 +23,7 @@ body{
   min-height: 100vh;
   display: flex;
   align-items: start;
+
+  box-sizing: border-box;
+  padding: 40px 30px;
 }

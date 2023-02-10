@@ -46,6 +46,7 @@ export const ListEducation = () => {
                                 startYear={startYear}
                                 endYear={endYear}
                                 place={place}
+                                key={`${Math.random()}`}
                             />
                         ))
                     }
