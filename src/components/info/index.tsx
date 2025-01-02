@@ -20,7 +20,7 @@ export const Info = () => {
                 />
                 <InfoItem
                     Icon={FiGithub}
-                    title="MateusSantosMeuBem"
+                    title="meu-bem"
                 />
                 <InfoItem
                     Icon={FiLinkedin}

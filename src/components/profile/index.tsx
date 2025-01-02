@@ -41,7 +41,7 @@ export const Profile = () => {
 
     useEffect(() => {
         const fetchData = async () => {
-            const response = await fetch('https://api.github.com/users/mateussantosmeubem');
+            const response = await fetch('https://api.github.com/users/meu-bem');
             const data = await response.json();
             setData(data);
         }
@@ -52,7 +52,7 @@ export const Profile = () => {
     return(
         <>
             <div className="card-profile">
-                <img src="http://github.com/MateusSantosMeuBem.png" alt="Profile picture" title="Profile picture"/>
+                <img src="http://github.com/meu-bem.png" alt="Profile picture" title="Profile picture"/>
                 <div className="profile-description">
                     <h1>{data.name ? data.name : '.........'}</h1>
                     <h2>DevOps at Eldorado</h2>

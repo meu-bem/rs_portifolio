@@ -4,7 +4,7 @@ export const Post = () => {
     return (
         <>
             <div className='post'>
-            <img src="http://github.com/MateusSantosMeuBem.png" alt="Profile picture" title="Profile picture"/>
+            <img src="http://github.com/meu-bem.png" alt="Profile picture" title="Profile picture"/>
                 <div className="post-body">
                     <h1 className="post-title">
                         Erro adb devices no Genymotion e Android Studio (React Native)
